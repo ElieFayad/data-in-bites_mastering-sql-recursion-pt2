@@ -1,0 +1,802 @@
+[
+    {
+        "Part_ID":1,
+        "Part_Name":"Clutch #1",
+        "Part_Category":"Transmission",
+        "Part_Cost":744.13,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":null
+    },
+    {
+        "Part_ID":2,
+        "Part_Name":"Alternator #2",
+        "Part_Category":"Electrical System",
+        "Part_Cost":739.11,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":null
+    },
+    {
+        "Part_ID":3,
+        "Part_Name":"Shock Absorber #3",
+        "Part_Category":"Suspension",
+        "Part_Cost":39.5,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":1.0
+    },
+    {
+        "Part_ID":4,
+        "Part_Name":"ECU #4",
+        "Part_Category":"Electrical System",
+        "Part_Cost":228.24,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":1.0
+    },
+    {
+        "Part_ID":5,
+        "Part_Name":"Master Cylinder #5",
+        "Part_Category":"Braking System",
+        "Part_Cost":346.85,
+        "Part_Manufacturing_Duration":3,
+        "Depends_On":3.0
+    },
+    {
+        "Part_ID":6,
+        "Part_Name":"Clutch #6",
+        "Part_Category":"Transmission",
+        "Part_Cost":386.13,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":5.0
+    },
+    {
+        "Part_ID":7,
+        "Part_Name":"Dashboard #7",
+        "Part_Category":"Interior",
+        "Part_Cost":732.43,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":4.0
+    },
+    {
+        "Part_ID":8,
+        "Part_Name":"Torque Converter #8",
+        "Part_Category":"Transmission",
+        "Part_Cost":831.11,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":3.0
+    },
+    {
+        "Part_ID":9,
+        "Part_Name":"Battery #9",
+        "Part_Category":"Electrical System",
+        "Part_Cost":55.37,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":2.0
+    },
+    {
+        "Part_ID":10,
+        "Part_Name":"Battery #10",
+        "Part_Category":"Electrical System",
+        "Part_Cost":386.32,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":50.0
+    },
+    {
+        "Part_ID":11,
+        "Part_Name":"Brake Caliper #11",
+        "Part_Category":"Braking System",
+        "Part_Cost":361.72,
+        "Part_Manufacturing_Duration":5,
+        "Depends_On":2.0
+    },
+    {
+        "Part_ID":12,
+        "Part_Name":"Brake Disc #12",
+        "Part_Category":"Braking System",
+        "Part_Cost":171.77,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":11.0
+    },
+    {
+        "Part_ID":13,
+        "Part_Name":"Starter Motor #13",
+        "Part_Category":"Electrical System",
+        "Part_Cost":844.42,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":1.0
+    },
+    {
+        "Part_ID":14,
+        "Part_Name":"Fender #14",
+        "Part_Category":"Body",
+        "Part_Cost":275.06,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":10.0
+    },
+    {
+        "Part_ID":15,
+        "Part_Name":"Hood #15",
+        "Part_Category":"Body",
+        "Part_Cost":658.88,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":11.0
+    },
+    {
+        "Part_ID":16,
+        "Part_Name":"Water Pump #16",
+        "Part_Category":"Cooling System",
+        "Part_Cost":272.23,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":9.0
+    },
+    {
+        "Part_ID":17,
+        "Part_Name":"Infotainment System #17",
+        "Part_Category":"Interior",
+        "Part_Cost":898.84,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":5.0
+    },
+    {
+        "Part_ID":18,
+        "Part_Name":"Radiator #18",
+        "Part_Category":"Cooling System",
+        "Part_Cost":758.22,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":6.0
+    },
+    {
+        "Part_ID":19,
+        "Part_Name":"Shock Absorber #19",
+        "Part_Category":"Suspension",
+        "Part_Cost":390.92,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":17.0
+    },
+    {
+        "Part_ID":20,
+        "Part_Name":"Dashboard #20",
+        "Part_Category":"Interior",
+        "Part_Cost":683.48,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":18.0
+    },
+    {
+        "Part_ID":21,
+        "Part_Name":"Steering Wheel #21",
+        "Part_Category":"Interior",
+        "Part_Cost":120.44,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":1.0
+    },
+    {
+        "Part_ID":22,
+        "Part_Name":"Seat #22",
+        "Part_Category":"Interior",
+        "Part_Cost":512.6,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":10.0
+    },
+    {
+        "Part_ID":23,
+        "Part_Name":"Alternator #23",
+        "Part_Category":"Electrical System",
+        "Part_Cost":380.17,
+        "Part_Manufacturing_Duration":3,
+        "Depends_On":17.0
+    },
+    {
+        "Part_ID":24,
+        "Part_Name":"Piston #24",
+        "Part_Category":"Engine System",
+        "Part_Cost":330.91,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":12.0
+    },
+    {
+        "Part_ID":25,
+        "Part_Name":"Seat #25",
+        "Part_Category":"Interior",
+        "Part_Cost":67.35,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":3.0
+    },
+    {
+        "Part_ID":26,
+        "Part_Name":"Radiator #26",
+        "Part_Category":"Cooling System",
+        "Part_Cost":978.2,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":5.0
+    },
+    {
+        "Part_ID":27,
+        "Part_Name":"Water Pump #27",
+        "Part_Category":"Cooling System",
+        "Part_Cost":272.41,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":7.0
+    },
+    {
+        "Part_ID":28,
+        "Part_Name":"Starter Motor #28",
+        "Part_Category":"Electrical System",
+        "Part_Cost":405.0,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":17.0
+    },
+    {
+        "Part_ID":29,
+        "Part_Name":"Radiator #29",
+        "Part_Category":"Cooling System",
+        "Part_Cost":255.43,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":19.0
+    },
+    {
+        "Part_ID":30,
+        "Part_Name":"Alternator #30",
+        "Part_Category":"Electrical System",
+        "Part_Cost":17.12,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":29.0
+    },
+    {
+        "Part_ID":31,
+        "Part_Name":"Spark Plug #31",
+        "Part_Category":"Engine System",
+        "Part_Cost":80.15,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":16.0
+    },
+    {
+        "Part_ID":32,
+        "Part_Name":"Alternator #32",
+        "Part_Category":"Electrical System",
+        "Part_Cost":726.12,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":8.0
+    },
+    {
+        "Part_ID":33,
+        "Part_Name":"Thermostat #33",
+        "Part_Category":"Cooling System",
+        "Part_Cost":198.51,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":23.0
+    },
+    {
+        "Part_ID":34,
+        "Part_Name":"Spring #34",
+        "Part_Category":"Suspension",
+        "Part_Cost":472.35,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":7.0
+    },
+    {
+        "Part_ID":35,
+        "Part_Name":"Oil Pump #35",
+        "Part_Category":"Engine System",
+        "Part_Cost":730.93,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":13.0
+    },
+    {
+        "Part_ID":36,
+        "Part_Name":"Water Pump #36",
+        "Part_Category":"Cooling System",
+        "Part_Cost":427.66,
+        "Part_Manufacturing_Duration":5,
+        "Depends_On":5.0
+    },
+    {
+        "Part_ID":37,
+        "Part_Name":"Radiator #37",
+        "Part_Category":"Cooling System",
+        "Part_Cost":60.08,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":6.0
+    },
+    {
+        "Part_ID":38,
+        "Part_Name":"Alternator #38",
+        "Part_Category":"Electrical System",
+        "Part_Cost":412.35,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":26.0
+    },
+    {
+        "Part_ID":39,
+        "Part_Name":"Cylinder Head #39",
+        "Part_Category":"Engine System",
+        "Part_Cost":385.18,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":30.0
+    },
+    {
+        "Part_ID":40,
+        "Part_Name":"Infotainment System #40",
+        "Part_Category":"Interior",
+        "Part_Cost":699.63,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":32.0
+    },
+    {
+        "Part_ID":41,
+        "Part_Name":"Brake Disc #41",
+        "Part_Category":"Braking System",
+        "Part_Cost":303.74,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":35.0
+    },
+    {
+        "Part_ID":42,
+        "Part_Name":"Camshaft #42",
+        "Part_Category":"Engine System",
+        "Part_Cost":320.47,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":33.0
+    },
+    {
+        "Part_ID":43,
+        "Part_Name":"Brake Pad #43",
+        "Part_Category":"Braking System",
+        "Part_Cost":961.17,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":5.0
+    },
+    {
+        "Part_ID":44,
+        "Part_Name":"Gearbox #44",
+        "Part_Category":"Transmission",
+        "Part_Cost":409.74,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":39.0
+    },
+    {
+        "Part_ID":45,
+        "Part_Name":"Piston #45",
+        "Part_Category":"Engine System",
+        "Part_Cost":91.16,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":21.0
+    },
+    {
+        "Part_ID":46,
+        "Part_Name":"Seat #46",
+        "Part_Category":"Interior",
+        "Part_Cost":673.03,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":26.0
+    },
+    {
+        "Part_ID":47,
+        "Part_Name":"Brake Caliper #47",
+        "Part_Category":"Braking System",
+        "Part_Cost":462.65,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":null
+    },
+    {
+        "Part_ID":48,
+        "Part_Name":"Clutch #48",
+        "Part_Category":"Transmission",
+        "Part_Cost":542.26,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":23.0
+    },
+    {
+        "Part_ID":49,
+        "Part_Name":"Gearbox #49",
+        "Part_Category":"Transmission",
+        "Part_Cost":375.83,
+        "Part_Manufacturing_Duration":3,
+        "Depends_On":35.0
+    },
+    {
+        "Part_ID":50,
+        "Part_Name":"Dashboard #50",
+        "Part_Category":"Interior",
+        "Part_Cost":671.18,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":10.0
+    },
+    {
+        "Part_ID":51,
+        "Part_Name":"Gearbox #51",
+        "Part_Category":"Transmission",
+        "Part_Cost":271.82,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":10.0
+    },
+    {
+        "Part_ID":52,
+        "Part_Name":"Steering Wheel #52",
+        "Part_Category":"Interior",
+        "Part_Cost":608.78,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":41.0
+    },
+    {
+        "Part_ID":53,
+        "Part_Name":"Infotainment System #53",
+        "Part_Category":"Interior",
+        "Part_Cost":258.61,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":null
+    },
+    {
+        "Part_ID":54,
+        "Part_Name":"Control Arm #54",
+        "Part_Category":"Suspension",
+        "Part_Cost":53.65,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":41.0
+    },
+    {
+        "Part_ID":55,
+        "Part_Name":"Seat #55",
+        "Part_Category":"Interior",
+        "Part_Cost":743.82,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":36.0
+    },
+    {
+        "Part_ID":56,
+        "Part_Name":"Engine Block #56",
+        "Part_Category":"Engine System",
+        "Part_Cost":84.49,
+        "Part_Manufacturing_Duration":3,
+        "Depends_On":54.0
+    },
+    {
+        "Part_ID":57,
+        "Part_Name":"Windshield #57",
+        "Part_Category":"Body",
+        "Part_Cost":557.0,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":20.0
+    },
+    {
+        "Part_ID":58,
+        "Part_Name":"Door #58",
+        "Part_Category":"Body",
+        "Part_Cost":899.94,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":43.0
+    },
+    {
+        "Part_ID":59,
+        "Part_Name":"Torque Converter #59",
+        "Part_Category":"Transmission",
+        "Part_Cost":782.32,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":48.0
+    },
+    {
+        "Part_ID":60,
+        "Part_Name":"Brake Disc #60",
+        "Part_Category":"Braking System",
+        "Part_Cost":865.96,
+        "Part_Manufacturing_Duration":3,
+        "Depends_On":2.0
+    },
+    {
+        "Part_ID":61,
+        "Part_Name":"Brake Caliper #61",
+        "Part_Category":"Braking System",
+        "Part_Cost":784.56,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":56.0
+    },
+    {
+        "Part_ID":62,
+        "Part_Name":"Starter Motor #62",
+        "Part_Category":"Electrical System",
+        "Part_Cost":167.61,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":3.0
+    },
+    {
+        "Part_ID":63,
+        "Part_Name":"Water Pump #63",
+        "Part_Category":"Cooling System",
+        "Part_Cost":207.58,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":53.0
+    },
+    {
+        "Part_ID":64,
+        "Part_Name":"Alternator #64",
+        "Part_Category":"Electrical System",
+        "Part_Cost":33.43,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":18.0
+    },
+    {
+        "Part_ID":65,
+        "Part_Name":"Torque Converter #65",
+        "Part_Category":"Transmission",
+        "Part_Cost":357.63,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":43.0
+    },
+    {
+        "Part_ID":66,
+        "Part_Name":"Engine Block #66",
+        "Part_Category":"Engine System",
+        "Part_Cost":878.27,
+        "Part_Manufacturing_Duration":5,
+        "Depends_On":34.0
+    },
+    {
+        "Part_ID":67,
+        "Part_Name":"Engine Block #67",
+        "Part_Category":"Engine System",
+        "Part_Cost":600.61,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":41.0
+    },
+    {
+        "Part_ID":68,
+        "Part_Name":"Shock Absorber #68",
+        "Part_Category":"Suspension",
+        "Part_Cost":391.34,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":6.0
+    },
+    {
+        "Part_ID":69,
+        "Part_Name":"Shock Absorber #69",
+        "Part_Category":"Suspension",
+        "Part_Cost":524.72,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":26.0
+    },
+    {
+        "Part_ID":70,
+        "Part_Name":"Fender #70",
+        "Part_Category":"Body",
+        "Part_Cost":79.27,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":16.0
+    },
+    {
+        "Part_ID":71,
+        "Part_Name":"Steering Wheel #71",
+        "Part_Category":"Interior",
+        "Part_Cost":670.22,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":38.0
+    },
+    {
+        "Part_ID":72,
+        "Part_Name":"Brake Disc #72",
+        "Part_Category":"Braking System",
+        "Part_Cost":426.24,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":23.0
+    },
+    {
+        "Part_ID":73,
+        "Part_Name":"Infotainment System #73",
+        "Part_Category":"Interior",
+        "Part_Cost":552.46,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":27.0
+    },
+    {
+        "Part_ID":74,
+        "Part_Name":"Control Arm #74",
+        "Part_Category":"Suspension",
+        "Part_Cost":470.34,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":66.0
+    },
+    {
+        "Part_ID":75,
+        "Part_Name":"Water Pump #75",
+        "Part_Category":"Cooling System",
+        "Part_Cost":662.26,
+        "Part_Manufacturing_Duration":5,
+        "Depends_On":43.0
+    },
+    {
+        "Part_ID":76,
+        "Part_Name":"Gearbox #76",
+        "Part_Category":"Transmission",
+        "Part_Cost":676.07,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":19.0
+    },
+    {
+        "Part_ID":77,
+        "Part_Name":"Engine Block #77",
+        "Part_Category":"Engine System",
+        "Part_Cost":252.39,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":10.0
+    },
+    {
+        "Part_ID":78,
+        "Part_Name":"Thermostat #78",
+        "Part_Category":"Cooling System",
+        "Part_Cost":887.28,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":50.0
+    },
+    {
+        "Part_ID":79,
+        "Part_Name":"Thermostat #79",
+        "Part_Category":"Cooling System",
+        "Part_Cost":251.54,
+        "Part_Manufacturing_Duration":1,
+        "Depends_On":14.0
+    },
+    {
+        "Part_ID":80,
+        "Part_Name":"Strut #80",
+        "Part_Category":"Suspension",
+        "Part_Cost":184.13,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":72.0
+    },
+    {
+        "Part_ID":81,
+        "Part_Name":"Battery #81",
+        "Part_Category":"Electrical System",
+        "Part_Cost":461.9,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":72.0
+    },
+    {
+        "Part_ID":82,
+        "Part_Name":"Fender #82",
+        "Part_Category":"Body",
+        "Part_Cost":616.53,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":71.0
+    },
+    {
+        "Part_ID":83,
+        "Part_Name":"Water Pump #83",
+        "Part_Category":"Cooling System",
+        "Part_Cost":746.22,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":32.0
+    },
+    {
+        "Part_ID":84,
+        "Part_Name":"Infotainment System #84",
+        "Part_Category":"Interior",
+        "Part_Cost":630.48,
+        "Part_Manufacturing_Duration":5,
+        "Depends_On":37.0
+    },
+    {
+        "Part_ID":85,
+        "Part_Name":"Starter Motor #85",
+        "Part_Category":"Electrical System",
+        "Part_Cost":342.49,
+        "Part_Manufacturing_Duration":9,
+        "Depends_On":null
+    },
+    {
+        "Part_ID":86,
+        "Part_Name":"Brake Disc #86",
+        "Part_Category":"Braking System",
+        "Part_Cost":389.2,
+        "Part_Manufacturing_Duration":3,
+        "Depends_On":9.0
+    },
+    {
+        "Part_ID":87,
+        "Part_Name":"Spring #87",
+        "Part_Category":"Suspension",
+        "Part_Cost":337.57,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":27.0
+    },
+    {
+        "Part_ID":88,
+        "Part_Name":"Spring #88",
+        "Part_Category":"Suspension",
+        "Part_Cost":905.79,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":3.0
+    },
+    {
+        "Part_ID":89,
+        "Part_Name":"Spring #89",
+        "Part_Category":"Suspension",
+        "Part_Cost":15.84,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":50.0
+    },
+    {
+        "Part_ID":90,
+        "Part_Name":"Strut #90",
+        "Part_Category":"Suspension",
+        "Part_Cost":493.35,
+        "Part_Manufacturing_Duration":5,
+        "Depends_On":4.0
+    },
+    {
+        "Part_ID":91,
+        "Part_Name":"Control Arm #91",
+        "Part_Category":"Suspension",
+        "Part_Cost":672.18,
+        "Part_Manufacturing_Duration":7,
+        "Depends_On":60.0
+    },
+    {
+        "Part_ID":92,
+        "Part_Name":"Brake Pad #92",
+        "Part_Category":"Braking System",
+        "Part_Cost":907.86,
+        "Part_Manufacturing_Duration":10,
+        "Depends_On":4.0
+    },
+    {
+        "Part_ID":93,
+        "Part_Name":"Flywheel #93",
+        "Part_Category":"Transmission",
+        "Part_Cost":144.34,
+        "Part_Manufacturing_Duration":8,
+        "Depends_On":34.0
+    },
+    {
+        "Part_ID":94,
+        "Part_Name":"Control Arm #94",
+        "Part_Category":"Suspension",
+        "Part_Cost":219.54,
+        "Part_Manufacturing_Duration":6,
+        "Depends_On":49.0
+    },
+    {
+        "Part_ID":95,
+        "Part_Name":"Infotainment System #95",
+        "Part_Category":"Interior",
+        "Part_Cost":259.75,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":70.0
+    },
+    {
+        "Part_ID":96,
+        "Part_Name":"Spark Plug #96",
+        "Part_Category":"Engine System",
+        "Part_Cost":231.98,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":84.0
+    },
+    {
+        "Part_ID":97,
+        "Part_Name":"Engine Block #97",
+        "Part_Category":"Engine System",
+        "Part_Cost":950.12,
+        "Part_Manufacturing_Duration":4,
+        "Depends_On":80.0
+    },
+    {
+        "Part_ID":98,
+        "Part_Name":"Brake Disc #98",
+        "Part_Category":"Braking System",
+        "Part_Cost":134.96,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":28.0
+    },
+    {
+        "Part_ID":99,
+        "Part_Name":"Cooling Fan #99",
+        "Part_Category":"Cooling System",
+        "Part_Cost":769.23,
+        "Part_Manufacturing_Duration":3,
+        "Depends_On":96.0
+    },
+    {
+        "Part_ID":100,
+        "Part_Name":"Gearbox #100",
+        "Part_Category":"Transmission",
+        "Part_Cost":965.07,
+        "Part_Manufacturing_Duration":2,
+        "Depends_On":40.0
+    }
+]

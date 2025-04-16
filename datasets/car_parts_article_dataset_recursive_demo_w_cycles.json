@@ -1,0 +1,66 @@
+[
+    {
+        "Part_ID": 1,
+        "Part_Name": "Brake Pad #1",
+        "Part_Category": "Braking System",
+        "Part_Cost": 45.00,
+        "Part_Manufacturing_Duration": 2,
+        "Depends_On": 3
+    },
+    {
+        "Part_ID": 2,
+        "Part_Name": "Brake Caliper #2",
+        "Part_Category": "Braking System",
+        "Part_Cost": 80.00,
+        "Part_Manufacturing_Duration": 4,
+        "Depends_On": 1
+    },
+    {
+        "Part_ID": 3,
+        "Part_Name": "Brake Rotor #3",
+        "Part_Category": "Braking System",
+        "Part_Cost": 120.00,
+        "Part_Manufacturing_Duration": 6,
+        "Depends_On": 2
+    },
+    {
+        "Part_ID": 4,
+        "Part_Name": "Engine Block #4",
+        "Part_Category": "Engine System",
+        "Part_Cost": 500.00,
+        "Part_Manufacturing_Duration": 10,
+        "Depends_On": null
+    },
+    {
+        "Part_ID": 5,
+        "Part_Name": "Piston #5",
+        "Part_Category": "Engine System",
+        "Part_Cost": 80.00,
+        "Part_Manufacturing_Duration": 5,
+        "Depends_On": 4
+    },
+    {
+        "Part_ID": 6,
+        "Part_Name": "Spark Plug #6",
+        "Part_Category": "Engine System",
+        "Part_Cost": 10.00,
+        "Part_Manufacturing_Duration": 1,
+        "Depends_On": 5
+    },
+    {
+        "Part_ID": 7,
+        "Part_Name": "Oil Filter #7",
+        "Part_Category": "Engine System",
+        "Part_Cost": 15.00,
+        "Part_Manufacturing_Duration": 2,
+        "Depends_On": 6
+    },
+    {
+        "Part_ID": 8,
+        "Part_Name": "Spark Plug #8",
+        "Part_Category": "Engine System",
+        "Part_Cost": 12.00,
+        "Part_Manufacturing_Duration": 1.5,
+        "Depends_On": 5
+    }
+]  
