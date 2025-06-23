@@ -33,3 +33,7 @@ Want to learn more about this topic? Check out the full series here:
 ## 📜 License
 
 MIT License – free to use, share, and modify. See LICENSE for details.
+
+---
+
+***Disclaimer:*** *The datasets were generated with the assistance of artificial intelligence tools and may contain inaccuracies, inconsistencies, or artifacts resulting from automated processing. Users are advised to independently verify the data before relying on it for research, analysis, or production use.*
